@@ -113,9 +113,12 @@ public class UserController {
         User safetyUser = userService.getSafetyUser(user);
         return ResultUtils.success(safetyUser);
     }
-
+    //add: Register a change in an index
     // https://yupi.icu/
-
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    //pull: Obtain the content of the remote repository
     @GetMapping("/search")
     public BaseResponse<List<User>> searchUsers(String username, HttpServletRequest request) {
         if (!isAdmin(request)) {
