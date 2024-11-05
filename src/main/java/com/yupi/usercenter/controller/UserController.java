@@ -115,7 +115,7 @@ public class UserController {
     }
     //add: Register a change in an index
     // https://yupi.icu/
-
+    //pull: Obtain the content of the remote repository
     @GetMapping("/search")
     public BaseResponse<List<User>> searchUsers(String username, HttpServletRequest request) {
         if (!isAdmin(request)) {
