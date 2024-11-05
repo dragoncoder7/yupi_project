@@ -113,7 +113,7 @@ public class UserController {
         User safetyUser = userService.getSafetyUser(user);
         return ResultUtils.success(safetyUser);
     }
-
+    //add: Register a change in an index
     // https://yupi.icu/
 
     @GetMapping("/search")
