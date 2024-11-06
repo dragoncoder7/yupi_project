@@ -115,7 +115,10 @@ public class UserController {
     }
 
     // https://yupi.icu/
-
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    //pull: Obtain the content of the remote repository
     @GetMapping("/search")
     public BaseResponse<List<User>> searchUsers(String username, HttpServletRequest request) {
         if (!isAdmin(request)) {
